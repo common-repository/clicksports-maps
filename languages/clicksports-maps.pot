@@ -1,0 +1,379 @@
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Clicksports Maps v1.0.1\n"
+"POT-Creation-Date: "
+"2021-08-24 11:12+0200\n"
+"PO-Revision-Date: \n"
+"Language-Team: "
+"CLICKSPORTS "
+"<wordpress@clicksports."
+"de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: admin/class-clicksports-maps-admin.php:99
+msgid "Settings"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:151
+#: admin/class-clicksports-maps-admin.php:327
+#: admin/class-clicksports-maps-admin.php:357
+msgid "Latitude"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:152
+#: admin/class-clicksports-maps-admin.php:332
+#: admin/class-clicksports-maps-admin.php:362
+msgid "Longitude"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:153
+#: admin/class-clicksports-maps-admin.php:338
+#: admin/class-clicksports-maps-admin.php:368
+msgid "Marker Popup Text"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:154
+#: admin/class-clicksports-maps-admin.php:372
+msgid "Remove map marker"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:155
+#: public/class-clicksports-maps-public.php:131
+msgid ""
+"Please set and save all "
+"default settings first."
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:156
+#: public/class-clicksports-maps-public.php:132
+msgid ""
+"Plan route with Google "
+"Maps"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:198
+msgid "Map Style"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:200
+msgid "Map Preview"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:202
+msgid "Map Markers"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:204
+msgid "Developer Settings"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:206
+msgid "Help"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:221
+msgid "Width"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:225
+msgid "Percent"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:227
+msgid "Pixel"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:232
+msgid "Full Width Map"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:233
+msgid ""
+"Deactivates the manual "
+"width setting and "
+"stretches the map across "
+"the full page width. "
+"Support for this feature "
+"highly depends on the "
+"activated theme and "
+"cannot be guaranteed."
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:236
+msgid "Height"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:239
+msgid "Zoom"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:255
+msgid "Map Theme"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:269
+msgid "CS Basic"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:270
+msgid "Klokantech Basic"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:271
+msgid "Positron"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:277
+msgid "Color Theme"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:318
+msgid ""
+"The map is centered "
+"automatically to the "
+"first set of "
+"coordinates. "
+"Additionally a marker is "
+"placed at that location. "
+"If you do not know the "
+"coordinates for your "
+"location, you can get "
+"them here:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:321
+msgid ""
+"The marker popup "
+"supports the following "
+"HTML tags:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:385
+msgid "Add Map Marker"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:401
+msgid ""
+"The usage of CLICKSPORTS "
+"Maps is completely free "
+"for private and "
+"charitable use. You "
+"simply need to register "
+"your domain with us and "
+"we activate the service "
+"for you. Business "
+"customers are charged a "
+"small fee to use our "
+"service. You can find "
+"the details in our"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:402
+msgid "blogpost"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:402
+msgid "or on our"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:403
+msgid "website"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:403
+msgid ""
+"Neither this plugin nor "
+"our servers save any "
+"personal information. "
+"Therefore this plugin is "
+"fully GDPR compliant."
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:405
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:406
+msgid ""
+"You can display the map "
+"using this shortcode:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:408
+msgid ""
+"Shortcode Parameters"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:409
+msgid ""
+"The shortcode supports "
+"multiple parameters to "
+"display an individual "
+"map beyond any global "
+"setting."
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:413
+msgid "Latitude:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:417
+msgid "Longitude:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:420
+msgid "Height:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:423
+msgid "Width:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:426
+msgid "Full Width:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:426
+msgid ""
+"Overwrites any width "
+"parameter"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:428
+msgid "Marker Popup Text:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:431
+msgid "Map Theme:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:434
+msgid "Color Theme:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:439
+msgid "Complete example:"
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:460
+msgid ""
+"Load map script in "
+"footer."
+msgstr ""
+
+#: admin/class-clicksports-maps-admin.php:465
+msgid ""
+"Disable conditional CSS "
+"loading."
+msgstr ""
+
+#: admin/partials/clicksports-maps-admin-display.php:91
+msgid "Save Settings"
+msgstr ""
+
+#: clicksports-maps.php:33
+msgid ""
+"This plugin is a simple "
+"alternative to Google "
+"Maps and displays a "
+"customizable map on your "
+"website."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:56
+msgid "Invalid width."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:80
+msgid ""
+"Invalid route link title."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:98
+msgid ""
+"Invalid value for "
+"fullwidth."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:118
+msgid "Invalid height."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:128
+msgid ""
+"Invalid value for pixel "
+"selection."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:138
+msgid ""
+"Invalid zoom setting."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:148
+msgid ""
+"Invalid maptheme setting."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:163
+#: includes/class-clicksports-maps-validation.php:221
+msgid ""
+"Invalid longitude "
+"setting."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:173
+#: includes/class-clicksports-maps-validation.php:229
+msgid ""
+"Invalid latitude setting."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:183
+msgid ""
+"Invalid value for footer "
+"script."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:193
+msgid ""
+"Invalid value for "
+"conditional CSS loading."
+msgstr ""
+
+#: includes/class-clicksports-maps-validation.php:266
+msgid ""
+"Map view and location:"
+msgstr ""

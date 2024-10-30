@@ -1,0 +1,264 @@
+/*********************************************************
+ * General.
+ ********************************************************/
+
+.clicksports-maps-admin-settings-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.clicksports-maps-admin-settings-section-container h2 {
+    padding: 16px 20px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.clicksports-maps-admin-settings-wrapper a:active,
+.clicksports-maps-admin-settings-wrapper a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.clicksports-maps-admin-settings-wrapper label {
+    vertical-align: baseline;
+}
+
+.clicksports-maps-admin-settings-wrapper input[type="text"] {
+    border-radius: 3px;
+    border-color: #ccc;
+    padding: 4px 10px;
+}
+
+.wp-core-ui select {
+    border-color: #ccc;
+    max-width: 100%;
+}
+
+#clicksports-maps-admin-map-wrapper {
+    border: 1px solid #ccc;
+}
+
+/*********************************************************
+ * Settings Section.
+ ********************************************************/
+
+.clicksports-maps-admin-settings-section {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.clicksports-maps-admin-settings-single-option {
+    margin-bottom: 10px;
+}
+
+.clicksports-maps-admin-settings-section-inner {
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.clicksports-maps-admin-settings-container {
+    background-color: #fff;
+}
+
+.clicksports-maps-admin-block-section-container {
+    padding: 0 20px;
+}
+
+.clicksports-maps-admin-block-wrapper {
+    display: flex;
+}
+
+.clicksports-maps-admin-block {
+    flex-basis: 50%;
+}
+
+.clicksports-maps-admin-block-left {
+    width: 50%;
+    margin: 0 0 0 10px;
+}
+
+.clicksports-maps-admin-block-right {
+    width: 50%;
+    margin: 0 10px 0 0;
+}
+
+.clicksports-maps-admin-text {
+    width: 100%;
+    border-color: #ccc;
+}
+
+.clicksports-maps-admin-select {
+    width: 100%;
+    height: 40px !important;
+    padding: 10px;
+}
+
+.clicksports-maps-radio-section {
+    padding: 20px 0;
+}
+
+.clicksports-maps-info-paragraph {
+    color: #999;
+    font-size: smaller;
+}
+
+.clicksports-maps-info-paragraph code {
+    margin-right: 4px !important;
+}
+
+/*********************************************************
+ * Map Preview Section.
+ ********************************************************/
+
+#clicksports-maps-admin-map {
+    max-width: 100%;
+    height: 500px;
+}
+
+.clicksports-maps-admin-preview {
+    order: 1;
+    flex: 0 1 50%;
+}
+
+#clicksports-maps-admin-map-error {
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color: #2f3536;
+}
+
+.clicksports-maps-admin-map-error-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.clicksports-maps-admin-settings-wrapper code {
+    color: #8da219;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/*********************************************************
+ * Map Coordinates Section.
+ ********************************************************/
+
+.clicksports-maps-coordinates-container {
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+
+.clicksports-maps-radio-button-label {
+    margin-right: 10px;
+}
+
+.clicksports-maps-delete-marker-wrapper {
+    text-align: right;
+}
+
+#clicksports-maps-add-marker {
+    background-color: transparent;
+    color: #1a7cba;
+    border: 1px solid #1a7cba;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#clicksports-maps-add-marker:hover {
+    color: #135e96;
+    border-color: #135e96;
+}
+
+.clicksports-maps-delete-marker {
+    background-color: transparent;
+    color: #d60e00;
+    border: none;
+    cursor: pointer;
+}
+
+.clicksports-maps-delete-marker:hover {
+    color: #af0b00;
+}
+
+.clicksports-maps-admin-map-instructions table {
+    border-collapse: collapse;
+
+}
+
+.clicksports-maps-admin-map-instructions tbody td {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0;
+}
+
+/*********************************************************
+ * Mapbox controls and meta.
+ ********************************************************/
+
+.csmaps-popup-content {
+    color: #333;
+    padding: 0 !important;
+}
+
+.csmaps-ctrl-top-right .csmaps-ctrl button {
+    box-shadow: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.csmaps-ctrl-attrib-inner a {
+    color: #999 !important;
+}
+
+.csmaps-ctrl-top-right {
+    margin-right: 10px;
+}
+
+.csmaps-ctrl-top-left {
+    margin-left: 10px;
+}
+
+.csmaps-ctrl-bottom-left {
+    margin-left: 10px;
+}
+
+.csmaps-ctrl-bottom-right {
+    margin-right: 10px;
+}
+
+/*********************************************************
+ * Marker popup.
+ ********************************************************/
+
+button.csmaps-popup-close-button {
+    margin: 0 !important;
+    padding: 0 10px !important;
+    box-shadow: none !important;
+    color: #333 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    position: relative !important;
+    float: right !important;
+    display: block !important;
+    text-decoration: none !important;
+}
+
+.csmaps-popup-marker-text {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.csmaps-popup-tip {
+    border-color: transparent !important;
+}

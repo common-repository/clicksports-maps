@@ -1,0 +1,102 @@
+/*********************************************************
+ * General.
+ ********************************************************/
+
+#clicksports-maps-public-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+#clicksports-maps-public {
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+#clicksports-maps-public-error {
+    background-color: #2f3536;
+    height: 500px;
+    max-width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.csmaps-popup-close-button {
+    outline: 0;
+}
+
+.clicksports-maps-public-error-text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.clicksports-maps-public-fullwidth {
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+    border: none;
+}
+
+/*********************************************************
+ * Mapbox controls and meta.
+ ********************************************************/
+
+.csmaps-popup-content {
+    color: #333;
+    padding: 0 !important;
+}
+
+.csmaps-ctrl-top-right .csmaps-ctrl button {
+    box-shadow: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.csmaps-ctrl-attrib-inner a {
+    color: #999 !important;
+}
+
+.csmaps-ctrl-top-right {
+    margin-right: 10px;
+}
+
+.csmaps-ctrl-top-left {
+    margin-left: 10px;
+}
+
+.csmaps-ctrl-bottom-left {
+    margin-left: 10px;
+}
+
+.csmaps-ctrl-bottom-right {
+    margin-right: 10px;
+}
+
+/*********************************************************
+ * Marker popup.
+ ********************************************************/
+
+button.csmaps-popup-close-button {
+    margin: 0 !important;
+    padding: 0 10px !important;
+    box-shadow: none !important;
+    color: #333 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    position: relative !important;
+    float: right !important;
+    display: block !important;
+    text-decoration: none !important;
+}
+
+.csmaps-popup-marker-text {
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.csmaps-popup-tip {
+    border-color: transparent !important;
+}
